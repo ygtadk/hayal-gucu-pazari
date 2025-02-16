@@ -2,13 +2,15 @@
 import Layout from "../layouts/Layout.astro";
 
 const {
-	geo: { city },
-	ip: { ipaddress },
+	geo: { city, latitude, longitude },
+	ip,
 } = Astro.locals.netlify.context;
 ---
 
 <Layout>
 	<h1>Merhaba!</h1>
 	<p>Şu an <strong>{city}</strong> şehrinde bulunuyorsunuz.</p>
-	<p>IP adresiniz: <strong>{ipaddress}</strong></p>
+	<p>IP adresiniz: <strong>{ip}</strong></p>
+	<p>Enlem: <strong>{latitude}</strong></p>
+	<p>Boylam: <strong>{longitude}</strong></p>
 </Layout>
