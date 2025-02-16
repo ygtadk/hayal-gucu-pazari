@@ -1,5 +1,27 @@
 {
-  "name": "hayal-gucu-pazari",
+  "name": "Hayal Gücü Pazarı",
+  "description": "Hayal Gücü Pazarı - Satış Sitesi",
+  "author": {
+    "name": "Yiğit Adak",
+    "email": "ygtadk100@gmail.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ygtadk/hayal-gucu-pazari.git"
+  },
+  "keywords": [
+    "astro",
+    "ecommerce",
+    "hayal-gucu-pazari"
+  ],
+  "packageManager": "pnpm@10.1.0",
+  "astro": {
+    "buildOptions": {
+      "site": "https://hayal-gucu-pazari.netlify.app"
+    }
+  },
   "type": "module",
   "version": "0.0.1",
   "scripts": {
