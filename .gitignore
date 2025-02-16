@@ -8,6 +8,10 @@ build/
 
 # dependencies
 node_modules/
+.pnpm/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
 
 # logs
 npm-debug.log*
